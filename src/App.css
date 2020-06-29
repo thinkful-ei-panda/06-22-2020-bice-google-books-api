@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.App-header {
+  width: 100%;
+  flex: 1;
+  background-color:#000;
+  text-align: center;
+  color: #fff;
+}
+
+.App form {
+  width: 100%;
+}
+
+.searchbar {
+  width: 100%;
+  flex: 1;
+  background-color: #888;
+  padding: 10px;
+  text-align: center;
+  color: #000;
+}
+
+.filterbar {
+  width: 100%;
+  flex: 1;
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+  color: #000;
+}
+
+.print-type-select-container {
+  display: inline-block;
+}
+
+.book-type-select-container {
+  display: inline-block;
+  margin-left: 20px;
+}
